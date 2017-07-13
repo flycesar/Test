@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@@font-face {
+  font-family: 'FreeSans';
+  src: url(FreeSans.otf);
+}
+body{
+  background: pink;
+}
+header{
+  width: 100%;
+  background-color: steelblue;
+  position: fixed;
+}
+.menus a{
+  font-family: 'FreeSans';
+  font-size: 2em;
+  color: black;
+}
+section{
+  width: 100%;
+  background-color: white;
+}
+#contenedor1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.first{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellowgreen;
+  width: 70%;
+}
+.first h1{
+  font-family: "FreeSans";
+  font-size: 2em;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  text-shadow: 1px 2px 10px white;
+  text-align: center;
+}
+.first img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 50px;
+  box-shadow: 1em 2em purple;
+  display: flex;
+  margin-top: 30px;
+}
+.second{
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  background-color: purple;
+}
+.second p{
+  width: 100%;
+  box-shadow: 1px 2px 3px black;
+  background: blue;
+  border-radius: 50px 10px;
+  font-size: 2em;
+  text-underline-position: left;
+  text-align: center;
+  display: flex;
+}
+.third{
+  display: flex;
+  width: 100%;
+  background-color: yellow;
+
+}
+.third img{
+  width: 30%;
+  height: 100%;
+  border-radius: 10px 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#contenedor2{
+  display: flex;
+  flex-wrap: wrap;
+}
+.first2{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellowgreen;
+  width: 100%;
+}
+.first2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 50px;
+  box-shadow: 1px 2px black;
+  display: flex;
+}
+.second2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  background-color: purple;
+}
+.second2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 50px;
+  box-shadow: 1px 2px black;
+  display: flex;
+}
+.third2{
+  display: flex;
+  width: 100%;
+  background-color: yellow;
+}
+.third2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+footer{
+  clear: both;
+  background: grey;
+  width: 100%;
+  position: absolute;
+}
+img[src$=ico]{
+  border-radius: 30px;
+  width: 10%;
+
+}
